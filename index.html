@@ -156,7 +156,7 @@
 
         <section class="cta">
             <h1>Contact Us For Our Various <br> Services Anytime</h1>
-            <a href="" class="hero-btn">CONTACT US</a>
+            <a href="contact.html" class="hero-btn">CONTACT US</a>
 
         </section>
 
@@ -198,6 +198,12 @@
             function hideMenu(){
                 navLinks.style.right = "-200px";
             }
+
+            document.querySelector(".hero-btn").addEventListener("click",function(){
+              showSection(this)
+
+          })
+
 
 
            
